@@ -1,0 +1,12 @@
+	             r	r+	w	w+	a	a+
+read from file	TAK	TAK	NIE	TAK	NIE	TAK
+write to file	NIE	TAK	TAK	TAK	TAK	TAK
+create file if not exist (jeśli plik nie istnieje to go nie utworzy)	NIE	NIE	TAK	TAK	TAK	TAK
+truncate file to zero lenght (przy otwieraniu usunie/nie usunie jego zawartości)	NIE	NIE	TAK	TAK	NIE	NIE
+cursor position (pozycja kursora)	Begining	Begining	Begining	Begining	End	End
+
+only reading	r
+only writing, truncate	w
+only writing, no truncate	a
+reading and writing, truncate	w+
+reading and writing, no truncate	r+
